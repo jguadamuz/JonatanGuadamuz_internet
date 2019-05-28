@@ -1,0 +1,264 @@
+ 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*outline: red solid thin;*/
+}
+
+body {
+    margin: 0 auto;
+    /*background-color: dimgray;*/
+}
+
+header {
+    /*height: 200px;*/
+    margin: 0 auto;
+    width: 970px;
+}
+
+header .banner {
+    color: #474747;
+    /*vertical-align: middle;*/
+    /*display: inline-block;*/
+    background-color: white;
+
+}
+
+header img {
+    display: inline-block;
+    height: 80px;
+    vertical-align: middle;
+}
+
+header .banner p {
+    display: inline-block;
+    vertical-align: middle;
+    /*padding: 15px 10px;*/
+    /*height: 80px;*/
+    font-size: 35px;
+}
+
+header .banner span {
+    color: #2b699d;
+}
+
+header .headline {
+    height: 60px;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 35px;
+    padding: 15px 0 15px 15px;
+    margin-top: -12px;
+    background: linear-gradient(#2b699d, #5182aa, #2b699d);
+}
+
+.main-container {
+    /*display: inline-block;*/
+    margin: 0 auto;
+    width: 970px;
+}
+
+aside {
+    display: inline-block;
+    padding-top: 10px;
+    width: 190px;
+    height: 512px;
+    background-color: white;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+aside p.question {
+    padding: 5px 0 5px 5px;
+    font-size: 12px;
+}
+
+aside p.answer {
+    font-size: 10px;
+    padding: 5px 0 5px 5px;
+}
+
+aside span.highlight {
+    color: red;
+}
+
+aside p.answer span {
+    color: #2b699d;
+}
+
+aside p.answer {
+    font-size: 12px;
+}
+
+aside button {
+    display: block;
+    margin: 0 auto;
+    width: calc(100% - 20px);
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+aside button.video {
+    background: linear-gradient(#6599c2,#29689e);
+}
+
+aside button.resources {
+    background: linear-gradient(#e9ab5c,#ee7201);
+}
+
+div.main-container aside hr {
+    width: 190px;
+    border-top: 1px solid darkgray;
+    margin: 20px 0;
+}
+
+/*aside div.advertising img {*/
+/*    width: 100%;*/
+/*}*/
+
+aside div.advertising {
+    padding-top: 15px;
+    background-image: url("../images/ad_background.png");
+    color: white;
+    text-align: center;
+    font-size: 21px;
+    font-weight: normal;
+    padding-bottom: 30px;
+}
+
+aside div.advertising img {
+    width: 100px;
+    padding-bottom: 10px;
+}
+
+aside div.advertising button {
+    background: linear-gradient(#7cd0de, #03c0dd);
+}
+
+.right-container nav {
+    /*outline: purple solid thin;*/
+    /*height: 60px;*/
+    width: 755px;
+    display: inline-block;
+}
+
+nav .nav-left {
+    display: inline-block;
+    padding-top: 5px;
+    padding-left: 5px;
+    vertical-align: top;
+    width: 80px;
+}
+
+nav .nav-left img {
+    /*display: inline-block;*/
+    width: 20px;
+}
+nav .nav-left a {
+    /*display: inline-block;*/
+    text-decoration: none;
+    color: #2b699d;
+}
+
+nav .nav-right {
+    display: inline-block;
+    width: 665px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+nav .nav-right .info {
+    display: inline-block;
+    font-size: 10px;
+    /*padding-top: 5px;*/
+    padding-right: 5px;
+    color: #575757;
+}
+
+nav .nav-right img {
+    width: 35px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+nav .nav-right .phone {
+    color: #00c0dd;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+div.main-container hr {
+    /*display: inline-block;*/
+    border-top: 1px solid darkgray;
+    margin: 5px 0;
+    /*width: 100%;*/
+    /*outline: red solid thin;*/
+}
+
+div.main-container main {
+    /*width: 600px;*/
+    display: inline-block;
+    /*outline: red solid thin;*/
+
+}
+
+.main-container main a {
+    color: #0297ad;
+    text-decoration: none;
+}
+
+.main-container main h1, footer h1 {
+    color: #26669c;
+    font-size: 18px;
+}
+
+.main-container main img {
+    width: 250px;
+    margin: 10px 35%;
+    text-align: center;
+}
+
+.main-container main li {
+    padding-left: 10px;
+    /*list-style-position: inside;*/
+    margin-left: 35px;
+    font-size: 14px;
+}
+
+.main-container main p, footer p {
+    font-size: 14px;
+}
+
+.right-container {
+    padding-left: 20px;
+    display: inline-block;
+    width: 775px;
+}
+
+footer {
+    padding-top: 10px;
+    border: 3px solid #0087dd;    display: inline-block;
+    /*width: 600px;*/
+    /*outline: red solid thin;*/
+}
+
+footer img {
+    width: 150px;
+    display: inline-block;
+}
+
+footer .footer-right {
+    vertical-align: top;
+    padding-left: 20px;
+    width: calc(100% - 165px);
+    display: inline-block;
+    /*outline: red solid thin;*/
+}
+
+footer p {
+    padding: 5px;
+    font-size: 14px;
+}
