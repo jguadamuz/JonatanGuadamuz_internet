@@ -21,7 +21,7 @@ header .banner {
     color: #474747;
     /*vertical-align: middle;*/
     /*display: inline-block;*/
-    background-color: white;
+    /* background-color: white; */
 
 }
 
@@ -58,6 +58,8 @@ header .headline {
     /*display: inline-block;*/
     margin: 0 auto;
     width: 970px;
+    background: linear-gradient(#e3e3e3, #ffffff 20%);
+    /* background: linear-gradient(red 10%, 30%, blue 90%); */
 }
 
 aside {
@@ -65,7 +67,7 @@ aside {
     padding-top: 10px;
     width: 190px;
     height: 512px;
-    background-color: white;
+    /* background-color: white; */
     font-weight: bold;
     vertical-align: top;
 }
@@ -194,7 +196,7 @@ div.main-container hr {
     /*display: inline-block;*/
     border-top: 1px solid darkgray;
     margin: 5px 0;
-    /*width: 100%;*/
+    width: 99%;
     /*outline: red solid thin;*/
 }
 
